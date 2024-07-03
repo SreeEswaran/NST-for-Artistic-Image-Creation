@@ -26,7 +26,7 @@ This project focuses on Neural Style Transfer (NST), a technique that applies th
    ```bash
    python script/train.py
    ```
-## Evaluate the model
+## Generate the results
    ```bash
-   python scripts/evaluate.py
+   python scripts/generate.py
    ```
