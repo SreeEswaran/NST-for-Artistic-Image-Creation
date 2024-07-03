@@ -22,7 +22,7 @@ This project focuses on Neural Style Transfer (NST), a technique that applies th
    ```bash
    pip install -r requirements.txt
    ```
-##Train the model
+## Train the model
    ```bash
    python script/train.py
    ```
