@@ -25,8 +25,13 @@ This project focuses on Neural Style Transfer (NST), a technique that applies th
 ## Train the model
    ```bash
    python script/train.py
+   # or
+   python scripts/train.py --content_path data/content/content_image.jpg --style_path data/style/style_image.jpg --output_path outputs/stylized_images
    ```
+   
 ## Generate the results
    ```bash
    python scripts/generate.py
+         (or)
+   python scripts/generate.py --content_path data/content/content_image.jpg --style_path data/style/style_image.jpg --output_path outputs/stylized_images
    ```
